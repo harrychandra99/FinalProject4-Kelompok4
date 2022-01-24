@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">FinalProject4</string>
+    <string name="tv_bux">Bux</string>
+    <string name="str_username">Username</string>
+    <string name="str_password">Password</string>
+    <string name="str_submit">Submit</string>
+    <string name="str_login">Login</string>
+    <string name="str_new_user_register_here">New User? Register Here</string>
+    <string name="str_register">Register</string>
+    <string name="str_name">Name</string>
 </resources>
