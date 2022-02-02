@@ -8,4 +8,8 @@
     <string name="str_new_user_register_here">New User? Register Here</string>
     <string name="str_register">Register</string>
     <string name="str_name">Name</string>
+    <string name="you_re_all_set_and_ready_to_use_bux">You\'re all set and ready to use bux</string>
+    <string name="enjoy_our_service">Enjoy our service!</string>
+    <string name="take_me_to_bux">Take Me To Bux</string>
+    <string name="everything_s_up">Everything\'s up</string>
 </resources>

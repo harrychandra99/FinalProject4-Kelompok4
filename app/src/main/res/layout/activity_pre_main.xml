@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreMainActivity"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ivLogoPreMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/PreHome"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/tvPreMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/everything_s_up"
+        android:padding="16dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="32sp"
+        app:layout_constraintTop_toBottomOf="@id/ivLogoPreMain"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvPreMain2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/you_re_all_set_and_ready_to_use_bux"
+        android:padding="8dp"
+        app:layout_constraintTop_toBottomOf="@id/tvPreMain"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+    <TextView
+        android:id="@+id/tvPreMain3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enjoy_our_service"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/tvPreMain2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnPreMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/take_me_to_bux"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_custom"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPreMain3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
