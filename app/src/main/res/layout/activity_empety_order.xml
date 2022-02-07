@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmpetyOrderActivity"
+    android:padding="16sp">
+
+    <TextView
+        android:id="@+id/tvEmpetyOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Tickets"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    <ImageView
+        android:id="@+id/ivEmpetyOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/JohnSeat"
+        app:layout_constraintTop_toBottomOf="@id/tvEmpetyOrder"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+        android:id="@+id/tvEmpetyOrder2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oops!"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/ivEmpetyOrder"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="40dp"/>
+    <TextView
+        android:id="@+id/tvEmpetyOrder3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You don't have any ticket yet. Please"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        app:layout_constraintTop_toBottomOf="@id/tvEmpetyOrder2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+        android:id="@+id/tvEmpetyOrder4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="order first"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:padding="10sp"
+        app:layout_constraintTop_toBottomOf="@id/tvEmpetyOrder3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
