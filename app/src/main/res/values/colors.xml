@@ -12,8 +12,5 @@
     <color name="secondary">#d890ff</color>
     <color name="secondary_secondary">#f0c0ff</color>
     <color name="white_smoke">#F5F5F5</color>
-
-
-
-
+    <color name="Grey">#D8D8D8</color>
 </resources>
