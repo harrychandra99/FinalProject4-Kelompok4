@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentSelecionActivity">
+    <TextView
+        android:id="@+id/tvPaymentSelection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvPaymentSelection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPaymentSelection"
+        android:orientation="vertical"
+        app:contentPadding="16dp">
+        <LinearLayout
+            android:id="@+id/llPaymentSelection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/llPaymentSelection2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView
+                android:id="@+id/tvPaymentSelection2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Payment"/>
+            <TextView
+                android:id="@+id/tvPaymentSelection3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp332.333,00"
+                android:textSize="30sp"
+                android:textColor="@color/purple_500"/>
+        </LinearLayout>
+            <View
+                android:id="@+id/vPaymentSelection"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@+id/llPaymentSelection3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView
+                android:id="@+id/tvPaymentSelection4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please select one of the payment method below"/>
+        </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/tvPaymentSelection5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment Method"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cvPaymentSelection"
+        android:padding="16dp"
+        android:layout_marginLeft="7dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPaymentSelection5"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
