@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    app:cardUseCompatPadding="true">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/llItemViewPaymentSelection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="16dp">
+            <TextView
+                android:id="@+id/tvItemViewPaymentSelecion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Credit Card"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/tvItemViewPaymentSelecion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select"
+                android:textAllCaps="true"
+                android:textColor="@color/purple_500"
+                android:layout_weight="1"
+                android:textAlignment="textEnd"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   >"
+                android:textSize="20dp"
+                android:textAlignment="textEnd"/>
+        </LinearLayout>
+        <View
+            android:id="@+id/vItemViewPaymentSelection"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+        <ImageView
+            android:id="@+id/ivItemViewPaymentSelection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:padding="16dp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

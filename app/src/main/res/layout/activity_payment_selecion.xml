@@ -27,7 +27,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvPaymentSelection"
         android:orientation="vertical"
-        app:contentPadding="16dp">
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
         <LinearLayout
             android:id="@+id/llPaymentSelection"
             android:layout_width="match_parent"
@@ -68,7 +69,8 @@
                 android:id="@+id/tvPaymentSelection4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Please select one of the payment method below"/>
+                android:text="Please select one of the payment method below"
+                android:padding="3dp"/>
         </LinearLayout>
         </LinearLayout>
 
