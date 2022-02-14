@@ -15,6 +15,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProject4">
         <activity
+            android:name=".SelectedBankTransferPaymentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BankTransferPaymentActivity"
+            android:exported="true" />
+        <activity
             android:name=".PaymentSelecionActivity"
             android:exported="true" />
         <activity

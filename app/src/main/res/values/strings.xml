@@ -12,4 +12,25 @@
     <string name="enjoy_our_service">Enjoy our service!</string>
     <string name="take_me_to_bux">Take Me To Bux</string>
     <string name="everything_s_up">Everything\'s up</string>
+    <string name="select">Select</string>
+    <string name="select">Select</string>
+    <string name="select">Select</string>
+    <string name="retail_payment">Retail Payment</string>
+    <string name="bank_transfer">Bank Transfer</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="please_select_one_of_the_payment_method_below">Please select one of the payment method below</string>
+    <string name="rp332_333_00">Rp332.333,00</string>
+    <string name="total_payment">Total Payment</string>
+    <string name="payment">Payment</string>
+    <string name="bank_transfer">Bank Transfer</string>
+    <string name="bni_mobile_banking">Bni Mobile Banking</string>
+    <string name="cimb_niaga_mobile_banking">CIMB Niaga Mobile Banking</string>
+    <string name="rp332_333_00">Rp332.333,00</string>
+    <string name="_4_after_you_press_continue_input_this_number_to_the_transfer_amount_field">4. After you press continue, input this number to the transfer amount field.</string>
+    <string name="_230719_0001">230719-0001</string>
+    <string name="_1_select_transfer">1. Select transfer</string>
+    <string name="_2_in_sub_menu_select_virtual_account_transfer">2. In sub menu select virtual account transfer</string>
+    <string name="_3_type_this_number_in_the_field">3. Type this number in the field</string>
+    <string name="_5_dont_forget_to_keep_the_receipt_for_vertificaion_process">5. Dont forget to keep the receipt for vertificaion process</string>
 </resources>
