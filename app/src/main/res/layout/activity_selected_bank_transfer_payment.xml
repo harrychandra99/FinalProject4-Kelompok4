@@ -229,13 +229,7 @@
                 android:id="@+id/tvSelectedBankTransferPayment13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/_5_dont_forget_to_keep_the_receipt_for_vertificaion_process" />
-            <TextView
-                android:id="@+id/tvSelectedBankTransferPayment14"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text=""/>
-
+                android:text="@string/_5_dont_forget_to_keep_the_receipt_for_vertificaion_process_n"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
     <androidx.appcompat.widget.AppCompatButton

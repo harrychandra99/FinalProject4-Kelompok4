@@ -35,109 +35,15 @@
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
-            <TextView
-                android:width="50dp"
-                android:layout_height="30dp"
-                android:text=""/>
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="0dp"
-                android:layout_height="30dp"
-                android:layout_weight="1"
-                android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="0dp"
-                android:layout_height="30dp"
-                android:layout_weight="1"
-                android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
-        </TableRow>
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="0dp"
-                android:layout_height="30dp"
-                android:layout_weight="1"
-                android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="0dp"
-                android:layout_height="30dp"
-                android:layout_weight="1"
-                android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
-            <TextView
-                android:width="50dp"
-                android:layout_height="30dp"
-                android:text=""/>
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="0dp"
-                android:layout_height="30dp"
-                android:layout_weight="1"
-                android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="0dp"
-                android:layout_height="30dp"
-                android:layout_weight="1"
-                android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
-        </TableRow>
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="0dp"
-                android:layout_height="30dp"
-                android:layout_weight="1"
-                android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="0dp"
-                android:layout_height="30dp"
-                android:layout_weight="1"
-                android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
-            <TextView
-                android:width="50dp"
-                android:layout_height="30dp"
-                android:text=""/>
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="0dp"
-                android:layout_height="30dp"
-                android:layout_weight="1"
-                android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="0dp"
-                android:layout_height="30dp"
-                android:layout_weight="1"
-                android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
-        </TableRow>
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="0dp"
-                android:layout_height="30dp"
-                android:layout_weight="1"
-                android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="0dp"
-                android:layout_height="30dp"
-                android:layout_weight="1"
-                android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
             <TextView
                 android:width="50dp"
                 android:layout_height="30dp"
@@ -165,13 +71,15 @@
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
             <TextView
                 android:width="50dp"
                 android:layout_height="30dp"
@@ -181,13 +89,15 @@
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
         </TableRow>
         <TableRow
             android:layout_width="match_parent"
@@ -197,13 +107,15 @@
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
             <TextView
                 android:width="50dp"
                 android:layout_height="30dp"
@@ -213,13 +125,15 @@
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
         </TableRow>
         <TableRow
             android:layout_width="match_parent"
@@ -229,13 +143,15 @@
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
             <TextView
                 android:width="50dp"
                 android:layout_height="30dp"
@@ -245,13 +161,15 @@
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="true"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="true"/>
         </TableRow>
         <TableRow
             android:layout_width="match_parent"
@@ -261,13 +179,15 @@
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
             <TextView
                 android:width="50dp"
                 android:layout_height="30dp"
@@ -277,13 +197,15 @@
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
         </TableRow>
         <TableRow
             android:layout_width="match_parent"
@@ -293,13 +215,15 @@
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
             <TextView
                 android:width="50dp"
                 android:layout_height="30dp"
@@ -309,13 +233,123 @@
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
+            <TextView
+                android:width="50dp"
+                android:layout_height="30dp"
+                android:text=""/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
+            <TextView
+                android:width="50dp"
+                android:layout_height="30dp"
+                android:text=""/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
+            <TextView
+                android:width="50dp"
+                android:layout_height="30dp"
+                android:text=""/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
         </TableRow>
         <TableRow
             android:layout_width="match_parent"
@@ -330,7 +364,8 @@
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
             <TextView
                 android:width="50dp"
                 android:layout_height="30dp"
@@ -340,13 +375,15 @@
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:layout_margin="10dp"
-                android:background="@drawable/btn_custome_seat_option"/>
+                android:background="@drawable/btn_custome_seat_option"
+                android:enabled="false"/>
         </TableRow>
 
     </TableLayout>

@@ -32,5 +32,15 @@
     <string name="_1_select_transfer">1. Select transfer</string>
     <string name="_2_in_sub_menu_select_virtual_account_transfer">2. In sub menu select virtual account transfer</string>
     <string name="_3_type_this_number_in_the_field">3. Type this number in the field</string>
-    <string name="_5_dont_forget_to_keep_the_receipt_for_vertificaion_process">5. Dont forget to keep the receipt for vertificaion process</string>
+    <string name="_5_dont_forget_to_keep_the_receipt_for_vertificaion_process_n">5.dont forget to keep the receipt for vertificaion process \n</string>
+    <string name="mastercard_credit_card">MasterCard Credit Card</string>
+    <string name="visa_credit_card">Visa Credit Card</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="vcc">VCC</string>
+    <string name="surename">Surename</string>
+    <string name="card_holder">Card Holder</string>
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+    <string name="valid_until">Valid until</string>
+    <string name="SecretNumber">****    </string>
 </resources>
