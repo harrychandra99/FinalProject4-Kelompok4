@@ -142,7 +142,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/Bni_Logo"
+                    android:background="@drawable/bnilogo"
                     android:layout_marginRight="16dp"
                     android:layout_marginLeft="3dp"/>
 
@@ -202,7 +202,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/CIMB_Niaga_logo"
+                    android:background="@drawable/cimbniagalogo"
                     android:layout_marginRight="16dp"
                     android:layout_marginLeft="3dp"/>
 

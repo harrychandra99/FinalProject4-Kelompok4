@@ -9,7 +9,9 @@ import android.view.View;
 import org.meicode.finalproject4.databinding.ActivityPreMainBinding;
 
 public class PreMainActivity extends AppCompatActivity {
+
     ActivityPreMainBinding binding;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +24,6 @@ public class PreMainActivity extends AppCompatActivity {
                 startActivity(new Intent(PreMainActivity.this, MainActivity.class));
             }
         });
-    }
 
+    }
 }

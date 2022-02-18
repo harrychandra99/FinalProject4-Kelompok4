@@ -24,7 +24,7 @@
         android:id="@+id/ivEmpetyOrder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/JohnSeat"
+        android:src="@drawable/johnseat"
         app:layout_constraintTop_toBottomOf="@id/tvEmpetyOrder"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>

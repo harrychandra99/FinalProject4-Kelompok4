@@ -111,7 +111,7 @@
                     android:layout_height="22dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
-                    android:background="@drawable/Bni_Logo"
+                    android:background="@drawable/bnilogo"
                     android:scaleType="fitXY" />
                 <TextView
                     android:id="@+id/tvSelectedBankTransferPayment5"
