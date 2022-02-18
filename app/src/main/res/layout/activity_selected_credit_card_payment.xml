@@ -121,7 +121,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:background="@drawable/Visa_Inc_logo" />
+                    android:background="@drawable/visainclogo" />
 
                 <TextView
                     android:id="@+id/tvSelectedCreditCardPayment6"

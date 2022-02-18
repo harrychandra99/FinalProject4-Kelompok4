@@ -138,12 +138,12 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/Visa_Inc_logo"
+                    android:background="@drawable/visainclogo"
                     android:layout_marginRight="16dp"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/Mastercard_Logo"/>
+                    android:background="@drawable/mastercardlogo"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -196,12 +196,12 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/Bni_Logo"
+                    android:background="@drawable/bnilogo"
                     android:layout_marginRight="16dp"/>
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/CIMB_Niaga_logo"/>
+                    android:background="@drawable/cimbniagalogo"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -254,7 +254,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/Alfamart_logo"
+                    android:background="@drawable/alfamartlogo"
                     android:layout_marginRight="16dp"
                     android:layout_marginLeft="2dp"/>
 
