@@ -2,8 +2,10 @@ package org.meicode.finalproject4.Bus;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import org.meicode.finalproject4.SeatActivity;
 import org.meicode.finalproject4.databinding.ActivityBusDetailBinding;
 
 public class BusDetailActivity extends AppCompatActivity {
@@ -15,5 +17,20 @@ public class BusDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityBusDetailBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        int image = getIntent().getIntExtra("image", 0);
+        String name = getIntent().getStringExtra("name");
+        String type = getIntent().getStringExtra("type");
+        String seat = getIntent().getStringExtra("seat");
+
+        binding.imgDetailBus.setImageDrawable(getResources().getDrawable(image));
+        binding.tvNameDetailBus.setText(name);
+        binding.tvSeatDetail.setText(seat);
+        binding.tvDetailClass.setText(type);
+
+        binding.btnBookingBusDetail.setOnClickListener(view -> {
+            startActivity(new Intent(BusDetailActivity.this, SeatActivity.class));
+        });
     }
+
 }

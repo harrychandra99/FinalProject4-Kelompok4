@@ -1,6 +1,7 @@
 package org.meicode.finalproject4.Bus;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.View;
 
 import androidx.annotation.NonNull;
@@ -22,5 +23,6 @@ public class BusListViewHolder extends RecyclerView.ViewHolder {
         binding.ivBus.setImageDrawable(ContextCompat.getDrawable(context, item.getImageBus()));
         binding.tvSeat.setText(item.getSeatBus());
         binding.tvType.setText(item.getTypeBus());
+
     }
 }

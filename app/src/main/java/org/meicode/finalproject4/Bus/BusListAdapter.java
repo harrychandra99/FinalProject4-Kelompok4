@@ -1,6 +1,7 @@
 package org.meicode.finalproject4.Bus;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
@@ -32,6 +33,15 @@ public class BusListAdapter extends RecyclerView.Adapter<BusListViewHolder> {
     public void onBindViewHolder(@NonNull BusListViewHolder holder, int position) {
         BusModel item = data.get(position);
         holder.setDataToView(context, item);
+        holder.itemView.setOnClickListener(view -> {
+            Intent intent = new Intent(holder.itemView.getContext(), BusDetailActivity.class);
+            intent.putExtra("image", item.getImageBus());
+            intent.putExtra("name", item.getNameBus());
+            intent.putExtra("seat", item.getSeatBus());
+            intent.putExtra("type", item.getTypeBus());
+            holder.itemView.getContext().startActivity(intent);
+
+        });
 
     }
 
