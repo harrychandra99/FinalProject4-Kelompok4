@@ -38,4 +38,6 @@
     <string name="month">Month</string>
     <string name="valid_until">Valid until</string>
     <string name="SecretNumber">****    </string>
+    <string name="str_capacity">Capacity :</string>
+    <string name="str_type">"Type : </string>
 </resources>

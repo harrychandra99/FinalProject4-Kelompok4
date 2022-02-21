@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProject4">
         <activity
+            android:name=".Bus.BusListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Bus.BusDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".PreMainActivity"
             android:exported="false" />
         <activity
