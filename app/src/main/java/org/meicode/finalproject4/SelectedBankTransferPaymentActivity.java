@@ -16,12 +16,21 @@ public class SelectedBankTransferPaymentActivity extends AppCompatActivity {
         binding = ActivitySelectedBankTransferPaymentBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        String bankImage = getIntent().getStringExtra("BankImage");
-        binding.ivSelectedBankTransferPayment.setImageResource(Integer.parseInt(bankImage));
+//        String bankImage = getIntent().getStringExtra("BankImage");
+//        binding.ivSelectedBankTransferPayment.setImageResource(Integer.parseInt(bankImage));
+//
+//        String bankText = getIntent().getStringExtra("BankText");
+//        binding.tvSelectedBankTransferPayment5.setText(String.valueOf(bankText));
 
-        String bankText = getIntent().getStringExtra("BankText");
-        binding.tvSelectedBankTransferPayment5.setText(String.valueOf(bankText));
+        Bundle bundle = getIntent().getExtras();
+        if (bundle!=null)
+        {
+            int bank_image = bundle.getInt("BankImage");
+            binding.ivSelectedBankTransferPayment.setImageResource(bank_image);
 
+            String bank_text = bundle.getString("BankText");
+            binding.tvSelectedBankTransferPayment5.setText(bank_text);
+        }
 
         binding.btnSelectedBankTransferPayment.setOnClickListener(new View.OnClickListener() {
             @Override

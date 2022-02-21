@@ -6,35 +6,36 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import org.meicode.finalproject4.databinding.ActivityPaymentSelecionBinding;
+import org.meicode.finalproject4.databinding.ActivityPaymentSelectionBinding;
+import org.meicode.finalproject4.databinding.ActivityPaymentSelectionBinding;
 
-public class PaymentSelecionActivity extends AppCompatActivity {
-    ActivityPaymentSelecionBinding binding;
+public class PaymentSelectionActivity extends AppCompatActivity {
+    ActivityPaymentSelectionBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityPaymentSelecionBinding.inflate(getLayoutInflater());
+        binding = ActivityPaymentSelectionBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         binding.tvPaymentSelection7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(PaymentSelecionActivity.this, SelectedCreditCardPaymentActivity.class));
+                startActivity(new Intent(PaymentSelectionActivity.this, CreditCardPaymentActivity.class));
             }
         });
 
         binding.tvPaymentSelection10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), SelectedBankTransferPaymentActivity.class));
+                startActivity(new Intent(PaymentSelectionActivity.this, BankTransferPaymentActivity.class));
             }
         });
 
         binding.tvPaymentSelection13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), SelectedRetailPaymentActivity.class));
+                startActivity(new Intent(PaymentSelectionActivity.this, SelectedRetailPaymentActivity.class));
             }
         });
     }

@@ -41,7 +41,7 @@
             android:name=".BankTransferPaymentActivity"
             android:exported="true" />
         <activity
-            android:name=".PaymentSelecionActivity"
+            android:name=".PaymentSelectionActivity"
             android:exported="true" />
         <activity
             android:name=".SeatActivity"

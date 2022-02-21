@@ -47,4 +47,9 @@
     <string name="_4_you_re_gonna_be_charged_as_much_as_the_total_n_payment_as_you_can_see_in_this_header_n">4. You\'re gonna be charged as much as the total \n payment.(as you can see in this header).\n</string>
     <string name="_5_keep_the_receipt_in_case_you_re_having_problem_n_with_payment_verification">5. Keep the receipt, in case you\'re having problem \n with payment verification.\n\n\n</string>
     <string name="verify_payment">Verify Payment</string>
+    <string name="book_a_trip">Book a trip</string>
+    <string name="str_avaiable_seat">Avaiable seat</string>
+    <string name="str_seat_are_avaiable">Seat are avaiable</string>
+    <string name="str_class">Class</string>
+    <string name="str_book_now">Book Now</string>
 </resources>

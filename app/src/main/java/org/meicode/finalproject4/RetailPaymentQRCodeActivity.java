@@ -17,13 +17,6 @@ public class RetailPaymentQRCodeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding.tvBackActivity.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),SelectedRetailPaymentActivity.class));
-            }
-        });
-
         binding = ActivityRetailPaymentQrcodeBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
@@ -33,13 +26,20 @@ public class RetailPaymentQRCodeActivity extends AppCompatActivity {
         int width = dm.widthPixels;
         int hight = dm.heightPixels;
 
-        getWindow().setLayout((int)(width*7), (int)(hight*.5));
+        getWindow().setLayout((int)(width*.9), (int)(hight*.9));
 
         WindowManager.LayoutParams params = getWindow().getAttributes();
         params.gravity = Gravity.CENTER;
         params.x = 0;
-        params.y = -20;
+        params.y = 0;
 
         getWindow().setAttributes(params);
+
+        binding.tvBackActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),SelectedRetailPaymentActivity.class));
+            }
+        });
     }
 }

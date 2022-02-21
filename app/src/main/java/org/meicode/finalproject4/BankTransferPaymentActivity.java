@@ -21,8 +21,9 @@ public class BankTransferPaymentActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intentGoToExplicit = new Intent(getApplicationContext(), SelectedBankTransferPaymentActivity.class);
-                intentGoToExplicit.putExtra("BankImage", binding.ivBankTransferPayment.getResources().toString());
+                intentGoToExplicit.putExtra("BankImage", R.drawable.bnilogo);
                 intentGoToExplicit.putExtra("BankText", binding.tvBankTransferPayment6.getText().toString());
+                startActivity(intentGoToExplicit);
             }
         });
 
@@ -30,8 +31,9 @@ public class BankTransferPaymentActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intentGoToExplicit = new Intent(getApplicationContext(), SelectedBankTransferPaymentActivity.class);
-                intentGoToExplicit.putExtra("BankImage", binding.ivBankTransferPayment2.getResources().toString());
+                intentGoToExplicit.putExtra("BankImage",R.drawable.cimbniagalogo);
                 intentGoToExplicit.putExtra("BankText", binding.tvBankTransferPayment9.getText().toString());
+                startActivity(intentGoToExplicit);
             }
         }));
     }

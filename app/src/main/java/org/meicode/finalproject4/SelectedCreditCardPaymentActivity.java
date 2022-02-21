@@ -18,8 +18,16 @@ public class SelectedCreditCardPaymentActivity extends AppCompatActivity {
         binding = ActivitySelectedCreditCardPaymentBinding.inflate(getLayoutInflater());
         setContentView(R.layout.activity_selected_credit_card_payment);
 
-        String Credit = getIntent().getStringExtra("Credit");
-        binding.ivSelectedCreditCardPayment.setImageResource(Integer.parseInt(Credit));
+        Bundle bundle = getIntent().getExtras();
+        if (bundle!=null)
+        {
+            int credit_image = bundle.getInt("CreditImage");
+            binding.ivSelectedCreditCardPayment.setImageResource(credit_image);
+
+        }
+
+//        String Credit = getIntent().getStringExtra("Credit");
+//        binding.ivSelectedCreditCardPayment.setImageResource(Integer.parseInt(Credit));
 
         String number1 = binding.edtSelectedCreditCardPayment.getText().toString();
         String number2 = binding.edtSelectedCreditCardPayment2.getText().toString();

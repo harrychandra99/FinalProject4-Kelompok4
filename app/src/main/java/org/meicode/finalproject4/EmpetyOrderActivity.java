@@ -4,11 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class EmpetyOrderActivity extends AppCompatActivity {
+import org.meicode.finalproject4.databinding.ActivityEmpetyOrderBinding;
 
+public class EmpetyOrderActivity extends AppCompatActivity {
+    ActivityEmpetyOrderBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_empety_order);
+        binding = ActivityEmpetyOrderBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
     }
 }

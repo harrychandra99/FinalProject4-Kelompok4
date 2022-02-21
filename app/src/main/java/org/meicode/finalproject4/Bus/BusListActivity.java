@@ -26,6 +26,11 @@ public class BusListActivity extends AppCompatActivity {
         bus.add(new BusModel(R.drawable.scorpionholiday,  "Scorpion Holidat", "Big Bus", "48"));
         bus.add(new BusModel(R.drawable.sinarjaya,  "Sinar Jaya", "Medium Bus", "32"));
         bus.add(new BusModel(R.drawable.symphonie,  "Symphonie", "MiniBus", "27"));
+        bus.add(new BusModel(R.drawable.bluestar, "BlueStar", "Medium Bus", "30"));
+        bus.add(new BusModel(R.drawable.marissaholiday, "Marissa Holiday", "Big Bus", "40"));
+        bus.add(new BusModel(R.drawable.scorpionholiday, "Scorpion Holidat", "Big Bus", "48"));
+        bus.add(new BusModel(R.drawable.sinarjaya, "Sinar Jaya", "Medium Bus", "32"));
+        bus.add(new BusModel(R.drawable.symphonie, "Symphonie", "MiniBus", "27"));
 
         BusListAdapter adapter = new BusListAdapter(bus, this);
         binding.rvBusList.setLayoutManager(new LinearLayoutManager(this));

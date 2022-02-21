@@ -21,7 +21,8 @@ public class CreditCardPaymentActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intentGoToExplicit = new Intent(getApplicationContext(), SelectedCreditCardPaymentActivity.class);
-                intentGoToExplicit.putExtra("CreditImage", binding.ivCreditCardPayment.getResources().toString());
+                intentGoToExplicit.putExtra("CreditImage", R.drawable.visainclogo);
+                startActivity(intentGoToExplicit);
             }
         });
 
@@ -29,7 +30,8 @@ public class CreditCardPaymentActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intentGoToExplicit = new Intent(getApplicationContext(), SelectedCreditCardPaymentActivity.class);
-                intentGoToExplicit.putExtra("CreditImage", binding.ivCreditCardPayment2.getResources().toString());
+                intentGoToExplicit.putExtra("CreditImage", R.drawable.mastercardlogo);
+                startActivity(intentGoToExplicit);
             }
         });
     }
