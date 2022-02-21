@@ -15,5 +15,16 @@ public class BusDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityBusDetailBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        int image = getIntent().getIntExtra("image", 0);
+        String name = getIntent().getStringExtra("name");
+        String type = getIntent().getStringExtra("type");
+        String seat = getIntent().getStringExtra("seat");
+
+        binding.imgDetailBus.setImageDrawable(getResources().getDrawable(image));
+        binding.tvNameDetailBus.setText(name);
+        binding.tvSeatDetail.setText(seat);
+        binding.tvDetailClass.setText(type);
     }
+
 }

@@ -40,4 +40,9 @@
     <string name="SecretNumber">****    </string>
     <string name="str_capacity">Capacity :</string>
     <string name="str_type">"Type : </string>
+    <string name="tv_book_a_trip">Book a trip</string>
+    <string name="str_available_seat">Available seat</string>
+    <string name="str_seat_are_available">Seat are available</string>
+    <string name="str_class">Class</string>
+    <string name="str_book_now">Book Now</string>
 </resources>
