@@ -38,4 +38,13 @@
     <string name="month">Month</string>
     <string name="valid_until">Valid until</string>
     <string name="SecretNumber">****    </string>
+    <string name="str_capacity">Capacity :</string>
+    <string name="str_type">"Type : </string>
+    <string name="alfamart">Alfamart</string>
+    <string name="_3_the_cashier_will_ask_what_is_your_booking_code_n_n_here_is_your_bookking_code">3. The cashier will ask what is your booking code.\n \n Here is your bookking code</string>
+    <string name="_2_when_you_asked_what_payment_answer_bux">2. When you asked what Payment, answer Bux</string>
+    <string name="_1_ask_the_casier_for_online_payment">1. Ask the casier for Online payment</string>
+    <string name="_4_you_re_gonna_be_charged_as_much_as_the_total_n_payment_as_you_can_see_in_this_header_n">4. You\'re gonna be charged as much as the total \n payment.(as you can see in this header).\n</string>
+    <string name="_5_keep_the_receipt_in_case_you_re_having_problem_n_with_payment_verification">5. Keep the receipt, in case you\'re having problem \n with payment verification.\n\n\n</string>
+    <string name="verify_payment">Verify Payment</string>
 </resources>

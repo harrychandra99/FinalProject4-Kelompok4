@@ -13,6 +13,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProject4">
         <activity
+            android:name=".RetailPaymentQRCodeActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.popMe"/>
+        <activity
+            android:name=".SelectedRetailPaymentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Bus.BusListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Bus.BusDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".PreMainActivity"
             android:exported="false" />
         <activity

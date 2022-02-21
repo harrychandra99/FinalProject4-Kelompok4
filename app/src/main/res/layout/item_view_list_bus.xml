@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="1dp"
+    android:translationZ="1dp"
+    app:cardCornerRadius="8dp"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/ivBus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/app_name"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bluestar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvNameBus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/ivBus"
+            app:layout_constraintTop_toTopOf="@id/ivBus"
+            tools:text="Blue Star" />
+
+        <TextView
+            android:id="@+id/tvCapacity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/str_capacity"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@id/tvNameBus"
+            app:layout_constraintTop_toBottomOf="@id/tvNameBus" />
+
+        <TextView
+            android:id="@+id/tvSeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@id/tvCapacity"
+            app:layout_constraintStart_toEndOf="@id/tvCapacity"
+            app:layout_constraintTop_toTopOf="@id/tvCapacity"
+            tools:text="30" />
+
+        <TextView
+            android:id="@+id/tvTypeBus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/str_type"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@id/tvCapacity"
+            app:layout_constraintTop_toBottomOf="@id/tvCapacity" />
+
+        <TextView
+            android:id="@+id/tvType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@id/tvTypeBus"
+            app:layout_constraintStart_toEndOf="@id/tvTypeBus"
+            app:layout_constraintTop_toTopOf="@id/tvTypeBus"
+            tools:text="Big bus" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnBookingBus"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:background="@drawable/btn_custom"
+            android:padding="4dp"
+            android:text="Book Now"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="SmallSp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -115,11 +115,13 @@
                 android:orientation="horizontal"
                 android:padding="16dp">
                 <TextView
+                    android:id="@+id/tvBankTransferPayment6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/bni_mobile_banking"
                     android:layout_weight="1"/>
                 <TextView
+                    android:id="@+id/tvBankTransferPayment7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/select"
@@ -127,6 +129,7 @@
                     android:layout_weight="1"
                     android:textAlignment="textEnd"/>
                 <TextView
+                    android:id="@+id/tvBankTransferPayment8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="  >"
@@ -140,6 +143,7 @@
                 android:orientation="horizontal"
                 android:padding="16dp">
                 <ImageView
+                    android:id="@+id/ivBankTransferPayment"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/bnilogo"
@@ -150,7 +154,7 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
-        android:id="@+id/cvPaymentSelection3"
+        android:id="@+id/cvBankTransferPayment3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardUseCompatPadding="true"
@@ -162,7 +166,7 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp">
         <LinearLayout
-            android:id="@+id/BankTransferPayment7"
+            android:id="@+id/llBankTransferPayment7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -174,12 +178,14 @@
                 android:padding="16dp">
 
                 <TextView
+                    android:id="@+id/tvBankTransferPayment9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/cimb_niaga_mobile_banking" />
 
                 <TextView
+                    android:id="@+id/tvBankTransferPayment10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/select"
@@ -187,6 +193,7 @@
                     android:layout_weight="1"
                     android:textAlignment="textEnd"/>
                 <TextView
+                    android:id="@+id/tvBankTransferPayment11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="  >"
@@ -194,12 +201,13 @@
                     android:textAlignment="textEnd"/>
             </LinearLayout>
             <LinearLayout
-                android:id="@+id/BankTransferPayment9"
+                android:id="@+id/llBankTransferPayment8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:padding="16dp">
                 <ImageView
+                    android:id="@+id/ivBankTransferPayment2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/cimbniagalogo"

@@ -11,7 +11,7 @@
         android:id="@+id/ivLogoPreMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_ccccvisa"
+        android:src="@drawable/prehome"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

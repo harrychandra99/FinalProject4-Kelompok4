@@ -103,27 +103,34 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp">
         <LinearLayout
+            android:id="@+id/llPaymentSelection4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <LinearLayout
+                android:id="@+id/llPaymentSelection5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:padding="16dp">
                 <TextView
+                    android:id="@+id/tvPaymentSelection6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/credit_card"
                     android:layout_weight="1"/>
+
                 <TextView
+                    android:id="@+id/tvPaymentSelection7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/select"
-                    android:textColor="@color/purple_500"
                     android:layout_weight="1"
-                    android:textAlignment="textEnd"/>
+                    android:text="@string/select"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/purple_500" />
+
                 <TextView
+                    android:id="@+id/tvPaymentSelection8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="  >"
@@ -131,16 +138,19 @@
                     android:textAlignment="textEnd"/>
             </LinearLayout>
             <LinearLayout
+                android:id="@+id/llPaymentSelection6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:padding="16dp">
                 <ImageView
+                    android:id="@+id/ivPaymentSelection"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/visainclogo"
                     android:layout_marginRight="16dp"/>
                 <ImageView
+                    android:id="@+id/ivPaymentSelection2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/mastercardlogo"/>
@@ -161,20 +171,24 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp">
         <LinearLayout
+            android:id="@+id/llPaymentSelection7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <LinearLayout
+                android:id="@+id/llPaymentSelection8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:padding="16dp">
                 <TextView
+                    android:id="@+id/tvPaymentSelection9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/bank_transfer"
                     android:layout_weight="1"/>
                 <TextView
+                    android:id="@+id/tvPaymentSelection10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/select"
@@ -182,6 +196,7 @@
                     android:layout_weight="1"
                     android:textAlignment="textEnd"/>
                 <TextView
+                    android:id="@+id/tvPaymentSelection11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="  >"
@@ -189,16 +204,19 @@
                     android:textAlignment="textEnd"/>
             </LinearLayout>
             <LinearLayout
+                android:id="@+id/llPaymentSelection9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:padding="16dp">
                 <ImageView
+                    android:id="@+id/ivPaymentSelection3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/bnilogo"
                     android:layout_marginRight="16dp"/>
                 <ImageView
+                    android:id="@+id/ivPaymentSelection4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/cimbniagalogo"/>
@@ -219,27 +237,34 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp">
         <LinearLayout
+            android:id="@+id/llPaymentSelection10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <LinearLayout
+                android:id="@+id/llPaymentSelection11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:padding="16dp">
                 <TextView
+                    android:id="@+id/tvPaymentSelection12"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/retail_payment"
                     android:layout_weight="1"/>
+
                 <TextView
+                    android:id="@+id/tvPaymentSelection13"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/select"
-                    android:textColor="@color/purple_500"
                     android:layout_weight="1"
-                    android:textAlignment="textEnd"/>
+                    android:text="@string/select"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/purple_500" />
+
                 <TextView
+                    android:id="@+id/tvPaymentSelection14"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="  >"
@@ -247,11 +272,13 @@
                     android:textAlignment="textEnd"/>
             </LinearLayout>
             <LinearLayout
+                android:id="@+id/llPaymentSelection12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:padding="16dp">
                 <ImageView
+                    android:id="@+id/ivPaymentSelection5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/alfamartlogo"

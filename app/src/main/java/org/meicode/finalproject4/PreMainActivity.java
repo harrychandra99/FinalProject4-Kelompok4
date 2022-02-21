@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import org.meicode.finalproject4.Bus.BusListActivity;
 import org.meicode.finalproject4.databinding.ActivityPreMainBinding;
 
 public class PreMainActivity extends AppCompatActivity {
@@ -21,7 +22,7 @@ public class PreMainActivity extends AppCompatActivity {
         binding.btnPreMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(PreMainActivity.this, MainActivity.class));
+                startActivity(new Intent(PreMainActivity.this, BusListActivity.class));
             }
         });
 

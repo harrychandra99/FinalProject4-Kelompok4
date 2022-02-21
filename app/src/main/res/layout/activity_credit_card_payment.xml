@@ -114,11 +114,13 @@
                 android:orientation="horizontal"
                 android:padding="16dp">
                 <TextView
+                    android:id="@+id/tvCreditCardPayment6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/visa_credit_card"
                     android:layout_weight="1"/>
                 <TextView
+                    android:id="@+id/tvCreditCardPayment7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/select"
@@ -126,6 +128,7 @@
                     android:layout_weight="1"
                     android:textAlignment="textEnd"/>
                 <TextView
+                    android:id="@+id/tvCreditCardPayment8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="  >"
@@ -139,6 +142,7 @@
                 android:orientation="horizontal"
                 android:padding="16dp">
                 <ImageView
+                    android:id="@+id/ivCreditCardPayment"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/visainclogo"
@@ -173,12 +177,14 @@
                 android:padding="16dp">
 
                 <TextView
+                    android:id="@+id/tvCreditCardPayment9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/mastercard_credit_card" />
 
                 <TextView
+                    android:id="@+id/tvCreditCardPayment10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/select"
@@ -186,6 +192,7 @@
                     android:layout_weight="1"
                     android:textAlignment="textEnd"/>
                 <TextView
+                    android:id="@+id/tvCreditCardPayment11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="  >"
@@ -200,6 +207,7 @@
                 android:padding="16dp">
 
                 <ImageView
+                    android:id="@+id/ivCreditCardPayment2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="3dp"
