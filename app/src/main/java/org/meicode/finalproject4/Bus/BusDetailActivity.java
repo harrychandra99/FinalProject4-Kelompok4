@@ -2,8 +2,10 @@ package org.meicode.finalproject4.Bus;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import org.meicode.finalproject4.SeatActivity;
 import org.meicode.finalproject4.databinding.ActivityBusDetailBinding;
 
 public class BusDetailActivity extends AppCompatActivity {
@@ -25,6 +27,10 @@ public class BusDetailActivity extends AppCompatActivity {
         binding.tvNameDetailBus.setText(name);
         binding.tvSeatDetail.setText(seat);
         binding.tvDetailClass.setText(type);
+
+        binding.btnBookingBusDetail.setOnClickListener(view -> {
+            startActivity(new Intent(BusDetailActivity.this, SeatActivity.class));
+        });
     }
 
 }
